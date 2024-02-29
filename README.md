@@ -3,7 +3,7 @@ simple nodejs connect to sqlite3 and provide get functions to query sqlite3
 
 ## To Run
 - npm install
-- npm main.js
+- node main.js
 
 ### edit queries in the project_repository.js
 - getByID()
