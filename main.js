@@ -20,6 +20,17 @@ function main() {
         console.log(JSON.stringify(err))
     })
 
+    projectRepo.getById('CVE-2023-0809').then(
+        (data) => {
+            console.log('Data: ')
+            console.log(JSON.stringify(data))
+        }
+    ).catch((err) => {        
+            console.log('Error: ')
+            console.log(JSON.stringify(err))
+        }
+    )
+
 }
 
 main()
